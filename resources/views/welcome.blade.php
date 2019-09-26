@@ -61,10 +61,20 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            @media (max-width: 375px){
+                .media-width {
+                    max-width: 375px;
+                }
+
+                .title {
+                    font-size: 60px;
+                }                
+            }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-center position-ref full-height media-width">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth

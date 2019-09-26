@@ -3,6 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/sfycfswq/
     - /bin/cp -r * $DEPLOYPATH/RoniSchool/  #copy all from root
-#    - /bin/cp -r ./public/* $DEPLOYPATH/zozzycode.com/RoniSchool/
+#    - /bin/cp -r ./public/* $DEPLOYPATH/ronischool.zozzycode.com/
     - /bin/cp ./public/js/*.js $DEPLOYPATH/ronischool.zozzycode.com/js/
     - /bin/cp ./public/css/*.css $DEPLOYPATH/ronischool.zozzycode.com/css/
